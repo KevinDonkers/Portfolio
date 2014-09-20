@@ -10,11 +10,62 @@
 <body>
     <div class="row">
         <div class="small-3 columns">
-            <img src="img/logo.png" />
+            <img id="logo" src="img/logo.png" />
         </div>
         <header class="small-9 columns">
             <h1>Kevin Donkers</h1>
         </header>
     </div>
+    <div class="row">
+        <div id="nav" data-magellan-expedition="fixed">
+            <dl class="sub-nav">
+                <dd data-magellan-arrival="home"><a href="#home">Home</a></dd>
+                <dd data-magellan-arrival="about"><a href="#about">About Me</a></dd>
+                <dd data-magellan-arrival="projects"><a href="#projects">Projects</a></dd>
+                <dd data-magellan-arrival="services"><a href="#services">Services</a></dd>
+                <dd data-magellan-arrival="github"><a href="#github">GitHub</a></dd>
+                <dd data-magellan-arrival="contact"><a href="#contact">Contact Me</a></dd>
+            </dl>
+        </div>
+    </div>
+    <div class="row">
+        <article>
+            <a name="home"></a>
+            <h3 data-magellan-destination="home">Home</h3>
+
+
+            <a name="about"></a>
+            <h3 data-magellan-destination="about">About</h3>
+            
+            
+            <a name="projects"></a>
+            <h3 data-magellan-destination="projects">Projects</h3>
+            
+            
+            <a name="services"></a>
+            <h3 data-magellan-destination="services">Services</h3>
+            
+            
+            <a name="github"></a>
+            <h3 data-magellan-destination="github">GitHub</h3>
+            
+            
+            <a name="contact"></a>
+            <h3 data-magellan-destination="contact">Contact Me</h3>
+        
+        
+        </article>
+
+
+    </div>
+
+    <!--Javascript-->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.magellan.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+    <script src="js/main.js"></script>
 </body>
 </html>
