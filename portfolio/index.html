@@ -14,55 +14,114 @@
         </div>
         <header class="small-9 columns">
             <h1>Kevin Donkers</h1>
+            <div class="row">
+                <div class="small-11 columns">
+                    <div id="nav" data-magellan-expedition="fixed">
+                        <dl class="sub-nav">
+                            <dd data-magellan-arrival="welcome"><a href="#welcome">Welcome</a></dd>
+                            <dd data-magellan-arrival="about"><a href="#about">About Me</a></dd>
+                            <dd data-magellan-arrival="projects"><a href="#projects">Projects</a></dd>
+                            <dd data-magellan-arrival="services"><a href="#services">Services</a></dd>
+                            <dd data-magellan-arrival="github"><a href="#github">GitHub</a></dd>
+                            <dd data-magellan-arrival="contact"><a href="#contact">Contact Me</a></dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
         </header>
     </div>
+
     <div class="row">
-        <div id="nav" data-magellan-expedition="fixed">
-            <dl class="sub-nav">
-                <dd data-magellan-arrival="home"><a href="#home">Home</a></dd>
-                <dd data-magellan-arrival="about"><a href="#about">About Me</a></dd>
-                <dd data-magellan-arrival="projects"><a href="#projects">Projects</a></dd>
-                <dd data-magellan-arrival="services"><a href="#services">Services</a></dd>
-                <dd data-magellan-arrival="github"><a href="#github">GitHub</a></dd>
-                <dd data-magellan-arrival="contact"><a href="#contact">Contact Me</a></dd>
-            </dl>
+        <div class="small-12 columns">
+            <article>
+                <div class="row">
+                    <div class="small-12 columns">
+                        <a name="welcome"></a>
+                        <h3 data-magellan-destination="welcome">Welcome to my World</h3>
+                        <p>Kevin's my name, coding's my game.</p>
+                        <p>I love coding because my dad is a programmer so I grew up with it, I am a logical thinker and good problem solver, and I am good at and love math which is helpful when coding.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="small-12 columns">
+                        <h4>Featured Work</h4>
+                        <ul class="orbit" data-orbit>
+                            <li>
+                                <a href="http://webdesign4.georgianc.on.ca/~200251054/W2014/assignment2/default.php?id=1">
+                                    <img src="img/curling.png" alt="slide 1" />
+                                    <div class="orbit-caption">
+                                        Website based off of the canada curling assocition.
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://webdesign4.georgianc.on.ca/~200251054/poster/">
+                                    <img src="img/jurassic_park.png" />
+                                    <div class="orbit-caption">
+                                        A remake of a Jurassic Park poster in a webpage.
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://webdesign4.georgianc.on.ca/~200251054/web_project/purchase.html">
+                                    <img src="img/yoyo.png" />
+                                    <div class="orbit-caption">
+                                        A YoYo Webpage I made for a class project.
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="small-6 columns">
+                        <h4>Keep Connected</h4>
+                        <p>
+                            <a href="https://www.facebook.com/kevin.donkers.52" class="button round">Facebook</a>
+                            <a href="https://twitter.com/" class="button round">Twitter</a>
+                            <a href="https://www.linkedin.com/uas/login" class="button round">Linkedin</a>
+                        </p>
+                    </div>
+                    <footer class="small-6 columns">
+                        <p>© 2014 All rights reserved.  Powered by Foundation</p>
+                    </footer>
+                </div>
+
+                <div class="row">
+                    <a name="about"></a>
+                    <h3 data-magellan-destination="about">About</h3>
+                </div>
+                
+                <div class="row">
+                    <a name="projects"></a>
+                    <h3 data-magellan-destination="projects">Projects</h3>
+                </div>
+                
+                <div class="row">
+                    <a name="services"></a>
+                    <h3 data-magellan-destination="services">Services</h3>
+                </div>
+                
+                <div class="row">
+                    <a name="github"></a>
+                    <h3 data-magellan-destination="github">GitHub</h3>
+                </div>
+                
+                <div class="row">
+                    <a name="contact"></a>
+                    <h3 data-magellan-destination="contact">Contact Me</h3>
+                </div>
+            </article>
         </div>
-    </div>
-    <div class="row">
-        <article>
-            <a name="home"></a>
-            <h3 data-magellan-destination="home">Home</h3>
-
-
-            <a name="about"></a>
-            <h3 data-magellan-destination="about">About</h3>
-            
-            
-            <a name="projects"></a>
-            <h3 data-magellan-destination="projects">Projects</h3>
-            
-            
-            <a name="services"></a>
-            <h3 data-magellan-destination="services">Services</h3>
-            
-            
-            <a name="github"></a>
-            <h3 data-magellan-destination="github">GitHub</h3>
-            
-            
-            <a name="contact"></a>
-            <h3 data-magellan-destination="contact">Contact Me</h3>
-        
-        
-        </article>
-
-
     </div>
 
     <!--Javascript-->
     <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.js"></script>
     <script src="js/foundation/foundation.magellan.js"></script>
+    <script src="js/foundation/foundation.orbit.js"></script>
     <script>
         $(document).foundation();
     </script>

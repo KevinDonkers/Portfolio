@@ -1,6 +1,4 @@
 ﻿img#logo {
-    min-width: 50%;
-    min-height: 50%;
     background-color: #FFF;
     border: 2px solid #000;
     padding: 5px;
@@ -14,6 +12,20 @@ div#nav {
 
 dl.sub-nav dd a {
     color: black;
+}
+
+#nav dl dd.active a {
+    background-color: #FAC358;
+    border-radius: 25px;
+}
+
+a.button {
+    background-color: #F7941E;
+    border:2px solid #F7941E;
+}
+
+a.button:hover{
+    background-color: #FAC358;
 }
 
 body {

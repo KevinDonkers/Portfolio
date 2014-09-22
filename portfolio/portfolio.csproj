@@ -61,7 +61,10 @@
     <Content Include="css\main.css" />
     <Content Include="css\normalize.css" />
     <Content Include="humans.txt" />
+    <Content Include="img\curling.png" />
+    <Content Include="img\jurassic_park.png" />
     <Content Include="img\logo.png" />
+    <Content Include="img\yoyo.png" />
     <Content Include="index.html" />
     <Content Include="js\foundation.min.js" />
     <Content Include="js\foundation\foundation.abide.js" />
