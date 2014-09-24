@@ -28,6 +28,10 @@ a.button:hover{
     background-color: #FAC358;
 }
 
+ #connect {
+     text-align: center;
+ }
+
 body {
     background-color: #FAC358;
 }
