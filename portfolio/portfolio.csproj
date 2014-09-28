@@ -63,6 +63,7 @@
     <Content Include="humans.txt" />
     <Content Include="img\curling.png" />
     <Content Include="img\foundationcropround.png" />
+    <Content Include="img\homepage.png" />
     <Content Include="img\javaclear.png" />
     <Content Include="img\jurassic_park.png" />
     <Content Include="img\logo.png" />

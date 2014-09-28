@@ -51,7 +51,8 @@ a.button {
      text-align: center;
  }
 
- /*change hover and body background colour*/
+ /*change hover and body background colour and font*/
 body, a.button:hover {
     background-color: #FAC358;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
